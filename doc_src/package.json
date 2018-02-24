@@ -1,0 +1,14 @@
+{
+  "name": "genrython",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate_template.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node generate_template.js"
+  },
+  "author": "",
+  "dependencies": {
+    "ejs": "^2.5.7"
+  }
+}

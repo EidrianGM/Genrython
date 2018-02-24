@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <script type="text/javascript" src="ejs.js"></script>
@@ -9,12 +8,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
   </head>
-  
+
   <body>
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="https://github.com/EidrianGM/Genrython">
-      <img src="logo.png" alt="Genrython: Trying to simplify and free BioInformatic" width="35" height="50">
+      <img src="static/logo.png" alt="Genrython: Trying to simplify and free BioInformatic" width="35" height="50">
       enrython
     </a>
     <div class="navbar-burger">
@@ -27,27 +26,27 @@
   <section class="section">
     <div class="columns">
     <div class="column is-one-quarter">
-    <object data="leftmenu.html"></object>
+    <%- include("../components/leftmenu") %>
     </div>
     <div class="column">
       <h1 class="title">
-        Genrython 
+        Genrython
       </h1>
       <p class="subtitle">
-        <strong> A potential universal and simplified omics ontology analysis tool. (+ Network propagation analysis)</strong> 
+        <strong> A potential universal and simplified omics ontology analysis tool. (+ Network propagation analysis)</strong>
       </p>
       <h2 class="subtitle">
-        Motivation 
+        Motivation
       </h2>
       <p>
         During my first period as a bioinformatician trainee, I have found that many of the
-        tools used in bioinformatics are web-based, have an use interface or are simply private. As a 
-        way to learn more about computer science as a biologist I am commited to develop small tools 
-        that I have need in a certain moment with the best informatic praxis (with a bit of supervision 
+        tools used in bioinformatics are web-based, have an use interface or are simply private. As a
+        way to learn more about computer science as a biologist I am commited to develop small tools
+        that I have need in a certain moment with the best informatic praxis (with a bit of supervision
         from <a href="https://github.com/angrykoala">@angrykoala</a>).
-      </p> 
+      </p>
     </div>
+</div>
   </section>
   </body>
 </html>
-

@@ -1,11 +1,11 @@
 # Genrython
 
-A command line controlled tool to study gene or any other biological elements that have an associated ontology. 
-The main idea is to develop a tool that let the user to provide any query list or lists (directory with lists) and an ontology mapping file and recieve as output an unformatted tab separated table with the results. An extra feature to be implemented is a network propagation analysis with the identification of modules using [Heat Diffusion](https://github.com/idekerlab/heat-diffusion) and [Networkx](https://networkx.github.io/).
-During its development is expected the spontaneous materialisation of small Bioinformatic tools with different aims. The hard data is expected to be saved in JSON format.
+A command line tool for studying genes and other biological elements with associated ontologies. 
 
-The tool must evolve as more gene nomenclatures, ontologies and statistics tests are supported. 
-The first version should be able to support:
+The main idea is to develop a tool that receives a query list (or directory of lists) and an ontology mapping file, and outputs an unformatted, tab-separated table containing the results. It would also be beneficial to implement a network propagation analysis feature that identifies modules using [Heat Diffusion](https://github.com/idekerlab/heat-diffusion) and [Networkx](https://networkx.github.io/).
+Throughout development, a variety of spontaneous [bioinformatics tools](#derivative-tools) are expected the materialise.
+
+*Genrython* must evolve to support more gene nomenclatures, ontologies and statistics tests; the first version should support:
 
 ## Ontology
 1. [Gene Ontology](http://www.geneontology.org/)
@@ -16,5 +16,5 @@ The first version should be able to support:
 ## Statistic
 1. Fisher Exact test
 
-# Derivative Tools
+# *Derivative Tools*
 In **AnnotationSources** tools to download, and keep track of interesting annotation file sources and also to transform among different nomenclatures.

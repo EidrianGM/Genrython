@@ -1,52 +1,16 @@
-<!DOCTYPE html>
-<html>
-<script type="text/javascript" src="ejs.js"></script>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Genrython</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
-  </head>
-
-  <body>
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="https://github.com/EidrianGM/Genrython">
-      <img src="static/logo.png" alt="Genrython: Trying to simplify and free BioInformatic" width="35" height="50">
-      enrython
-    </a>
-    <div class="navbar-burger">
-    <span>Hola</span>
-    <span>Adios</span>
-    <span>42</span>
-    </div>
-  </div>
-</nav>
-  <section class="section">
-    <div class="columns">
-    <div class="column is-one-quarter">
-    <%- include("../components/leftmenu") %>
-    </div>
-    <div class="column">
+<%- include("../components/header") %>
       <h1 class="title">
-        Genrython
+        A seed called genrython
       </h1>
-      <p class="subtitle">
-        <strong> A potential universal and simplified omics ontology analysis tool. (+ Network propagation analysis)</strong>
-      </p>
-      <h2 class="subtitle">
-        Motivation
-      </h2>
       <p>
-        During my first period as a bioinformatician trainee, I have found that many of the
-        tools used in bioinformatics are web-based, have an use interface or are simply private. As a
-        way to learn more about computer science as a biologist I am commited to develop small tools
-        that I have need in a certain moment with the best informatic praxis (with a bit of supervision
-        from <a href="https://github.com/angrykoala">@angrykoala</a>).
+        BioInformatics is a growing sector and a BioInformatician is a
+        data scientist with some background in biological sciences.
+        
+        This website is just another of many that can be found on the 
+        internet of <a href="author.html">one of those</a> called BioInformatician.
+        It is born with the idea to provide the documentation of my 
+        first open-source project <a>genrython</a> and all the paths that
+        might open for future projects. 
+        
       </p>
-    </div>
-</div>
-  </section>
-  </body>
-</html>
+<%- include("../components/footer") %> 
